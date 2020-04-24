@@ -5,3 +5,9 @@ In simple words it is concurrent programming which consist of multiple tasks run
 
 ## WAY TO USE ASYNC RUST
 We need executers like **.await** to add this feautere in our code.Unfortunatly standard library **std** which is pre-installed does not contain this executer,though we have some external crates available for the purpose.Some known crates are **async-std** which is under use and **tokio**.
+
+### Characterstics
+An async function takes time to start and requires executers to kick off.
+
+#### Practical Example
+We are trying to create an app which gets some data from the server and print it on console.We will do this step by step:
