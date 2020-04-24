@@ -32,4 +32,4 @@ Obviously ,it also has some downsides in contrast to the benefits it provide ran
 * Security is one of the most overlooked aspects of development,it is more challenging to secure the largely distrubuted units of the application
 
 #### Conclusion ####
-Microservices architecture provided the solution for the growing problems and filled the vacant space in industry by providing certain features giving a new shape to software development.At last its the choice of the developer to go with any architecture that fulfills his requirements providing convenience to him
+Microservices architecture provided the solution for the growing problems and filled the vacant space in industry by providing certain features giving a new shape to software development.At last its the choice of the developer to go with any architecture that fulfills his requirements providing convenience to him.
