@@ -3,6 +3,12 @@ Asynchronous programming refers to the concept of running multiple tasks at once
 
 In simple words it is concurrent programming which consist of multiple tasks runnung simultaneously on a single thread.The concept of async rust deviates from the concepts in other languages.Consider an example of a task that is executed and it is waiting for a response from the server , in the meantime CPU is free and consuming power , so in order to prevent that loss multiple tasks are initialized and different functions run at once providing results timely.
 
+### Why Async Rust
+* The applications using asynchronous scheme are much faster and tends to use lesser resources than its counter-part.
+But it requires support and libraries from programming languages to run this feature smoothly. In Rust, **async** fn creates an asynchronous function which returns a `Future`. To execute the body of the function, the returned `Future` must be run to completion.
+
+It's important to remember that traditional threaded applications can be quite effective, and that Rust's small memory footprint and predictability mean that you can get far without ever using async. The increased complexity of the asynchronous programming model isn't always worth it, and it's important to consider whether your application would be better served by using a simpler threaded model.
+
 ## WAY TO USE ASYNC RUST
 We need executers like **.await** to add this feautere in our code.Unfortunatly standard library **std** which is pre-installed does not contain this executer,though we have some external crates available for the purpose.Some known crates are **async-std** which is under use and **tokio**.
 
